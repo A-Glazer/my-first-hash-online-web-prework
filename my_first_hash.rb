@@ -9,7 +9,7 @@ def shipping_manifest
   shipping_manifest = {
     "whale bone corsets" => 5,
     "porcelain vases" => 2,
-    "oil paintings" => 3,
+    "oil paintings" => 3
   }
   # set a variable called `the_manifest`, equal to a hash
   # fill that hash with key/value pairs that describe the following information:
@@ -20,9 +20,9 @@ end
 
 def retrieval
   shipping_manifest = {
-                  "whale bone corsets" => "5",
-                  "porcelain vases" => "2",
-                  "oil paintings" => "3"
+                  "whale bone corsets" => 5,
+                  "porcelain vases" => 2,
+                  "oil paintings" => 3
                  }
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
